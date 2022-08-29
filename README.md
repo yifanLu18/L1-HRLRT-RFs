@@ -4,7 +4,7 @@ removing surface waves in RFs by using high-resolution Radon transform
 
 more details can be found in https://doi.org/10.1093/gji/ggac260
 
-===================================================================================================
+=======================================================================================
 
 Thanks to the suggestion from chenxin, the sub-function tauptime has been added. The program is from MatTaup: A TauP toolkit for MATLAB, which is written and maintained by Qin Li at the University of Washington. 
 
