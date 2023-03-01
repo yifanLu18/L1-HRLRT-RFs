@@ -45,7 +45,7 @@ for i=1:floor((iF+1)/2)
     
     % Make time-shift matrix, A.
     f = ((i-1)/iF)*dF;
-    A = exp(  (2i*pi*f).*Tshift  );
+    A = exp( - (2i*pi*f).*Tshift  );
     
     % Apply Radon operator.
     Mfft(:,i) = A*Rfft(:,i);
